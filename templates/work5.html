@@ -15,7 +15,7 @@
     <link rel="apple-touch-icon" sizes="180x180" href="./static/assets/apple-icon-180x180.png">
     <link href="./static/assets/favicon.ico" rel="icon">
 
-    <title>Python Password Checker</title>
+    <title>Bulldozer Price Prediction Model</title>
 
     <link href="./static/main.3f6952e4.css" rel="stylesheet">
     <link href="./static/comingsoon.css" rel="stylesheet">
@@ -68,47 +68,20 @@
                     <img src="assets/images/work001-01.jpg" class="img-responsive" alt="">
                     <div class="card-container">
                         <div class="text-center">
-                            <h1 class="h2">003 : Python Password-Checker</h1>
+                            <h1 class="h2">005 : Bulldozer Price Prediction Model</h1>
                         </div>
                         <p>
-                            This Python script takes a text file as an argument and will read each line as a password,
-                            compare that to the Have I Been Pwned? API which returns a list of 300-500 SHA1 hash
-                            suffixes that match the first five characters in the SHA1 hash of your own passwords
-                            that you have safely in your text file.
+                            This Price Prediction model was trained with Scikit-Learn on a Kaggle dataset about bulldozers and their price along with corresponding features.
+                        </p>
+                        <p>
+                            The model was trained with a Random Forest Regressor algorithm found within Scikit-Learn. The Jupyter notebook containing the end-to-end project can be found at the link below.
                         </p>
 
-                        <p>
-                            Now, the Have I Been Pwned? website is most likely pretty safe to trust in the first place,
-                            because the way they compare the SHA1 hash of your password uses the same k-anonymity safety
-                            precaution as I described above. Meaning no one will be able to know for sure what your
-                            first five characters of the hash are in the first place, or if they could, you would still
-                            be hidden within the range of 300-500 other hashes that start with the same 5 characters,
-                            which, of course, corresponding to COMPLETELY different passwords.
-                        </p>
-
-                        <p>
-                            However, while that site should more than likely be trusted, the best policy with passwords
-                            and security will always be: "Trust No one". That's why instead of entering your password,
-                            that is still handled responsibly by the HIBP website, you can use this Python script to
-                            read over a text file and tell you in the terminal whether or not your passwords have been
-                            hacked. If they have been hacked, it will even tell you just how many times it is known to
-                            have been hacked.
-                        </p>
-                        <p>
-                            This way your password hashes never get sent over the wire, but the list of hundreds of
-                            hashes that it COULD be come to you, and then we can compare safely on your own device.
-                        </p>
-                        <p>
-                            I would recommend only doing this on a secure and trusted network of course. Don't try in a
-                            coffee shop, folks!
-                        </p>
-
-                        <blockquote>
-                            <p>"Treat your password like your toothbrush. Don't let anybody else use it, and get a new
-                                one every six months"
+                        <!-- <blockquote>
+                            <p>""
                             </p>
-                            <small class="pull-right">Clifford Stoll</small>
-                        </blockquote>
+                            <small class="pull-right"></small>
+                        </blockquote> -->
                     </div>
                 </div>
 
